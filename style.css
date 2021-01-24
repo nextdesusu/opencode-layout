@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.padded {
+  padding: 25px 150px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.around {
+  justify-content: flex-end;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.header-wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper-title {
+  font-size: 48px;
+  color: #eb3c00;
+  font-weight: 700;
+  font-family: "Oswald";
+}
+
+.wrapper-caption {
+  font-size: 18px;
+  color: #282828;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "PT Serif";
+  align-self: flex-end;
+  height: 40%;
+}
+
+.wrapper-login {
+  font-size: 13px;
+  color: #282828;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "PT Serif";
+  text-decoration: none;
+
+  display: grid;
+  grid-template-columns: .5fr 1fr;
+}
+
+.wrapper-login:hover {
+  text-decoration: underline;
+}
+
+.wrapper-login > i {
+    color: #ee4400;
+}
+
+.wrapper-key {
+  font-size: 14px;
+  color: #ee4400;
+  font-family: "Font Awesome";
+}
+
+.wrapper-contact {
+  width: 191px;
+  height: 45px;
+  background-color: #ee4400;
+  border: none;
+  cursor: pointer;
+
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "PT Serif";
+  transition: background-color 1s linear;
+}
+
+.wrapper-contact:hover {
+  text-decoration: underline;
+}
+
+.gap30 {
+  grid-gap: 30px;
+}
