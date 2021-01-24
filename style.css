@@ -247,13 +247,13 @@ header {
   font-weight: 700;
   font-family: "Oswald";
   text-transform: uppercase;
-  padding-bottom: 25px;
+  padding-bottom: 1.2em;
 }
 
 .news-gallery {
   display: grid;
   grid-template-columns: repeat(6, 172px);
-  grid-gap: 20px;
+  grid-gap: .5em;
 }
 
 .gallery-card {
@@ -338,5 +338,4 @@ footer {
 .gap30 {
   grid-gap: 30px;
 }
-
 /* Common end */
